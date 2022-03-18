@@ -4,7 +4,7 @@ export const CREATE_TOURISM_ACTIVITY = "CREATE_TOURISM_ACTIVITY";
 export const GET_COUNTRY_DETAILS = "GET_COUNTRY_DETAILS";
 export const GET_TOURISM_ACTIVITIES = "GET_TOURISM_ACTIVITIES";
 
-const baseUrl = "https://project-countries.herokuapp.com/";
+const baseUrl = "https://project-countries.herokuapp.com";
 let urlCountries = `${baseUrl}/countries`;
 let urlCountriesByName = `${baseUrl}/countries/?name=`;
 let urlCountry = `${baseUrl}/countries/`;
